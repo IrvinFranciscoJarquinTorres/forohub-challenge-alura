@@ -155,9 +155,6 @@ api.security.secret=tu_clave_secreta
 mvn spring-boot:run
 ```
 
-### 5. Acceder a la aplicación
-- Interfaz web: http://localhost:8080
-- API REST: http://localhost:8080/topicos
 
 ---
 
