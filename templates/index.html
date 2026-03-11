@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ForoHub</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<header>
+    <h1>📋 ForoHub</h1>
+    <nav>
+        <a th:href="@{/topicos-view}">Ver Tópicos</a>
+        <a th:href="@{/login}">Iniciar Sesión</a>
+        <a th:href="@{/registro}">Registrarse</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h2>Bienvenido al Foro de la Comunidad</h2>
+        <p>Comparte tus dudas, aprende de otros y contribuye a la comunidad.</p>
+        <a th:href="@{/topicos-view}" class="btn-primary">Ver Tópicos</a>
+    </section>
+</main>
+
+<footer>
+    <p>ForoHub - Challenge Alura Latam Oracle ONE</p>
+</footer>
+</body>
+</html>
