@@ -1,0 +1,22 @@
+# Credenciales - NUNCA subir
+application.properties
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# Build
+build/
+.gradle/
